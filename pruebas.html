@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/stylesprueba.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <input type="checkbox" name="" id="open-menu" class="header__bgmenu-checkbox">
+        <label for="open-menu" class="header__bgmenu-label" aria-label="boton para desplegar menu de navegacion en movil">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <!------------ NAV ------------>
+        <nav class="header__nav-container" role="navigation">
+            <ul class="header__nav-list" >
+                <li class="header__nav-item"><a href="index.html">HOME</a></li>
+                <li class="header__nav-item nav-item--shop"><a href="shop.html">SHOP</a></li>
+                <li class="header__nav-item"><a href="faqs.html">FAQS</a></li>
+                <li class="header__nav-item"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="header__logo-container" aria-label="logo soulsclub">
+            <a href="index.html" class="header__logo-link">
+                <img src="IMAGES/soulsclublogo.png" alt="LOGO DE SOULSCLUB" class="header__logo">
+            </a>
+        </div>
+        <div class="header__interaccion-container">
+            <div class="header__interaccion-searchbar" aria-label="barra de busqueda">
+                <form action="" class="header__interaccion-searchbar-form">
+                    <input type="text" class="header__interaccion-searchbar-item" placeholder="Busca algo...">
+                    <button class="header__interaccion-searchbar-button">BUTTON</button>
+                </form>
+            </div>
+            <div class="header__interaccion-login" >
+                <a href="" class="header__interaccion-login-link">
+                    <i class="fas fa-user"></i>
+                    <h2>Iniciar sesion:</h2>
+                </a>
+            </div>
+            <div class="header__interaccion-cart">
+                <a href="" class="header__interaccion-cart-link">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
